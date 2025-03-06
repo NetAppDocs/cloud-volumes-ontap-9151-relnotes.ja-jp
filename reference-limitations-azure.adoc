@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: reference-limitations-azure.html 
+keywords: limitations, ha, azure, pay-as-you-go, paygo, cloud solution provider, vm, flash cache 
+summary: これらの既知の制限は、 Microsoft Azure の Cloud Volumes ONTAP に固有のものです。 
+---
+= Azure の既知の制限事項
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+以下に示す既知の制限事項は、 Microsoft Azure の Cloud Volumes ONTAP に固有のものです。必ず確認してくださいlink:reference-limitations.html["すべてのクラウドプロバイダでの Cloud Volumes ONTAP の制限"]。
+
+
+
+== Azure VM拡張機能の使用に関する制限事項
+
+Cloud Volumes ONTAPでは、Azure Virtual Machine（VM）拡張機能と導入環境内のVMアプリケーションはサポートされません。AzureでVM拡張機能を使用してCloud Volumes ONTAPを使用すると、運用に遅延が発生するため、NetAppではそれらを回避することを推奨
+
+
+
+== Flash Cache の制限事項
+
+Cloud Volumes ONTAPでは、一部のVMタイプで_Flash Cache_としてローカルのNVMeストレージが使用されます。この制限事項に注意してください。
+
+* リブート後のキャッシュの再ウォームアップはサポートされていません。
+
+
+
+
+== HA の制限事項
+
+一部のリージョンでは HA ペアがサポートされません。
+
+https://bluexp.netapp.com/cloud-volumes-global-regions["サポートされている Azure リージョンのリストを表示します"^]です。
