@@ -36,6 +36,14 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+== 9.15.1 P7（2025年3月10日）
+
+すべてのクラウドプロバイダのCloud Volumes ONTAPで、9.15.1 P7パッチが利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.15.1P7["P7パッチで修正されたバグの一覧を表示する"^] （NetAppサポートサイトへのログインが必要です）。
+
+
+
 == 9.15.1 P6（2025年1月20日）
 
 すべてのクラウドプロバイダのCloud Volumes ONTAPで、9.15.1 P6パッチが利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。
@@ -92,7 +100,7 @@ Cloud Volumes ONTAP 9.15.1のGA版提供が、AWS、Azure、Google Cloudで利�
 
 
 
-=== AzureでPremium SSD v2 Managed Disksをサポート
+=== AzureでPremium SSD v2管理ディスクをサポート
 
 Azure上のCloud Volumes ONTAPシステムでPremium SSD v2管理ディスクがサポートされるようになりました。このプレミアムディスクは、Premium SSD Managed Disksと比較して、シングルノードとハイアベイラビリティ（HA）ペアの両方で低コストで高いパフォーマンスと低レイテンシを提供します。他の管理対象ディスクと同様に、最大ディスクサイズは32TiBです。Premium SSD v2管理ディスクのパフォーマンス（容量、スループット、IOPS）は、変化するパフォーマンスニーズに対応しながら、ワークロードの対費用効果を高めることができます。
 
@@ -102,7 +110,7 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-storage.html#az
 
 === Azureの単一のアベイラビリティゾーンにHAペアを導入
 
-Cloud Volumes ONTAP 9.15.1以降では、Azureの単一アベイラビリティゾーン（AZ）にHAモードで仮想マシン（VM）インスタンスを導入できます。以前の非ゾーン展開とは異なり、Cloud Volumes ONTAP 9.15.1では、柔軟なオーケストレーションモードのMicrosoft仮想マシンスケールセットを使用して、同じAZ内に個別のフォールトドメインを含むすべてのリソースを展開し、最適な可用性を保証します。この導入モードでは、次の条件を満たす場合、デフォルトでPremium SSD v2 Managed Disksが使用されます。
+Cloud Volumes ONTAP 9.15.1以降では、Azureの単一アベイラビリティゾーン（AZ）にHAモードで仮想マシン（VM）インスタンスを導入できます。以前の非ゾーン展開とは異なり、Cloud Volumes ONTAP 9.15.1では、柔軟なオーケストレーションモードのMicrosoft仮想マシンスケールセットを使用して、同じAZ内に個別のフォールトドメインを含むすべてのリソースを展開し、最適な可用性を保証します。この導入モードでは、次の条件が満たされている場合、デフォルトでPremium SSD v2 Managed Disksが使用されます。
 
 * Cloud Volumes ONTAPのバージョンは9.15.1以降です。
 * 選択したリージョンとゾーンでは、Premium SSD v2管理ディスクがサポートされます。サポートされるリージョンの詳細については、を参照してください https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/["Microsoft AzureのWebサイト：「リージョン別の利用可能な製品」"^]。追加方法については、を参照してください https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-azure.html#launching-a-cloud-volumes-ontap-ha-pair-in-azure["AzureでのCloud Volumes ONTAP HAペアの起動"^]。
