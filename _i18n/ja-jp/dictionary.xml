@@ -829,4 +829,8 @@
   <block id="4ed7f8d6ce44fa053592b73fcd8be5e3" category="paragraph">Cloud Volumes ONTAPのバージョンが9.15.1より前の場合、またはいずれかの条件が満たされていない場合は、可用性セットを利用する以前の導入モデルが有効になります。これはHA構成にのみ該当します。</block>
   <block id="0dc254fad1832eb1cdccc5261264b7ef" category="section-title">AzureでPremium SSD v2管理ディスクをサポート</block>
   <block id="22e2a7fe0db4ccace3b93579a7678955" category="paragraph">Cloud Volumes ONTAP 9.15.1以降では、Azureの単一アベイラビリティゾーン（AZ）にHAモードで仮想マシン（VM）インスタンスを導入できます。以前の非ゾーン展開とは異なり、Cloud Volumes ONTAP 9.15.1では、柔軟なオーケストレーションモードのMicrosoft仮想マシンスケールセットを使用して、同じAZ内に個別のフォールトドメインを含むすべてのリソースを展開し、最適な可用性を保証します。この導入モードでは、次の条件が満たされている場合、デフォルトでPremium SSD v2 Managed Disksが使用されます。</block>
+  <block id="efd15432a3ca08ddb49f99a52ce9c1b7" category="section-title">9.15.1 P10（2025年5月29日）</block>
+  <block id="1832a3006fd64b4265a68064e45a1e74" category="paragraph">すべてのクラウドプロバイダのCloud Volumes ONTAPで、9.15.1 P10パッチが利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。</block>
+  <block id="7c8ff86b41b72d8fa99855f2e2c45139" category="inline-link-macro">P10パッチで修正されたバグの一覧を表示する</block>
+  <block id="3c20f15522136e1c2bb7a26b742d9c3f" category="paragraph"><block ref="80808db670fbf104d60eaba92d8bd4d0" category="inline-link-macro-rx"></block> （NetAppサポートサイトへのログインが必要です）。</block>
 </blocks>
