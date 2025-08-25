@@ -837,4 +837,8 @@
   <block id="21d13ae0920cc60798a6732ad38d483e" category="paragraph">すべてのクラウドプロバイダのCloud Volumes ONTAPで、9.15.1 P11パッチが利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。</block>
   <block id="4d51ff14f4691186785e9ce841b8db7c" category="inline-link-macro">P11パッチで修正されたバグの一覧を表示する</block>
   <block id="53ada277b14da25d31bb7f3d103a6163" category="paragraph"><block ref="c1097ddb08efba068505acb744b61722" category="inline-link-macro-rx"></block> （NetAppサポートサイトへのログインが必要です）。</block>
+  <block id="43ffac3ecb33d2851f6681cf1c69e10a" category="section-title">9.15.1 P12（2025年8月22日）</block>
+  <block id="7ef6a81fba3b8b728766bbdcd310c798" category="paragraph">9.15.1 P12 パッチが、すべてのクラウド プロバイダーのCloud Volumes ONTAPで利用できるようになりました。は、既存のシステムをこのパッチリリースにアップグレードするよう促すメッセージが表示されます。</block>
+  <block id="8a1258bf37cf0340b92dd9f9ca39acfa" category="inline-link-macro">P12パッチで修正されたバグのリストを見る</block>
+  <block id="1839aed191967f0dfe1cd8d95c24cb72" category="paragraph"><block ref="7627f9c7fb46a08c0bd284c3a2b4b57c" category="inline-link-macro-rx"></block> (NetAppサポート サイトへのログインが必要です)。</block>
 </blocks>
