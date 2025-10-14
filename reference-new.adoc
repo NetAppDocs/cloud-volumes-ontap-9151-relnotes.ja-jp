@@ -20,6 +20,22 @@ Cloud Volumes ONTAP 9.15.1には、新しい機能拡張が含まれています
 
 
 
+== 9.15.1 P14（2025年10月9日）
+
+9.15.1 P14 パッチが、すべてのクラウド プロバイダーのCloud Volumes ONTAPで利用できるようになりました。NetApp Consoleは、既存のシステムをこのパッチ リリースにアップグレードするように要求します。
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.15.1P14["P14パッチで修正されたバグのリストを見る"^] (NetAppサポート サイトへのログインが必要です)。
+
+
+
+== 9.15.1 P13（2025年10月9日）
+
+9.15.1 P13 パッチが、すべてのクラウド プロバイダーのCloud Volumes ONTAPで利用できるようになりました。NetApp Consoleは、既存のシステムをこのパッチ リリースにアップグレードするように要求します。
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.15.1P13["P13パッチで修正されたバグのリストを見る"^] (NetAppサポート サイトへのログインが必要です)。
+
+
+
 == 9.15.1 P12（2025年8月22日）
 
 9.15.1 P12 パッチが、すべてのクラウド プロバイダーのCloud Volumes ONTAPで利用できるようになりました。は、既存のシステムをこのパッチリリースにアップグレードするよう促すメッセージが表示されます。
