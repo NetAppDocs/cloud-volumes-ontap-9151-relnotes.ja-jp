@@ -16,13 +16,21 @@ summary: Cloud Volumes ONTAP 9.15.1には、新しい機能拡張が含まれて
 [role="lead"]
 Cloud Volumes ONTAP 9.15.1には、新しい機能拡張が含まれています。
 
-その他の機能と拡張機能も、最新バージョンのBlueXPで導入されました。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["BlueXPリリースノート"^]詳細については、を参照してください。
+NetApp Consoleの最新バージョンでは、追加の機能と拡張機能も導入されています。詳細については、 https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html["Cloud Volumes ONTAP"^] コンソールで管理されます。
+
+
+
+== 9.15.1 P15（2025年10月24日）
+
+9.15.1 P15 パッチが、すべてのクラウド プロバイダーのCloud Volumes ONTAPで利用できるようになりました。コンソールは、既存のシステムをこのパッチ リリースにアップグレードするように要求します。
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.15.1P15["P15パッチで修正されたバグのリストを見る"^](NetAppサポート サイトへのログインが必要です)。
 
 
 
 == 9.15.1 P14（2025年10月9日）
 
-9.15.1 P14 パッチが、すべてのクラウド プロバイダーのCloud Volumes ONTAPで利用できるようになりました。NetApp Consoleは、既存のシステムをこのパッチ リリースにアップグレードするように要求します。
+9.15.1 P14 パッチが、すべてのクラウド プロバイダーのCloud Volumes ONTAPで利用できるようになりました。コンソールは、既存のシステムをこのパッチ リリースにアップグレードするように要求します。
 
 link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.15.1P14["P14パッチで修正されたバグのリストを見る"^] (NetAppサポート サイトへのログインが必要です)。
 
@@ -30,7 +38,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 == 9.15.1 P13（2025年10月9日）
 
-9.15.1 P13 パッチが、すべてのクラウド プロバイダーのCloud Volumes ONTAPで利用できるようになりました。NetApp Consoleは、既存のシステムをこのパッチ リリースにアップグレードするように要求します。
+9.15.1 P13 パッチが、すべてのクラウド プロバイダーのCloud Volumes ONTAPで利用できるようになりました。コンソールは、既存のシステムをこのパッチ リリースにアップグレードするように要求します。
 
 link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.15.1P13["P13パッチで修正されたバグのリストを見る"^] (NetAppサポート サイトへのログインが必要です)。
 

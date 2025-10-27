@@ -380,7 +380,6 @@
   <block id="2d9da48a9b4a4fd6966adc9c52393b79" category="doc">Azure の既知の制限事項</block>
   <block id="4e9780ecc95f5dbfb27e64e3ded5cd85" category="paragraph">以下に示す既知の制限事項は、 Microsoft Azure の Cloud Volumes ONTAP に固有のものです。必ず確認してください<block ref="edcf15b4d9d7d1e018ccca7ce112dd3e" category="inline-link-macro-rx"></block>。</block>
   <block id="c3647f40e3574e0e6f49e20c19135bfa" category="section-title">Azure VM拡張機能の使用に関する制限事項</block>
-  <block id="9d167ed7d52d81da8d83590ec3b5a4af" category="paragraph">Cloud Volumes ONTAPでは、Azure Virtual Machine（VM）拡張機能と導入環境内のVMアプリケーションはサポートされません。AzureでVM拡張機能を使用してCloud Volumes ONTAPを使用すると、運用に遅延が発生するため、NetAppではそれらを回避することを推奨</block>
   <block id="0ef515bdf91048074b68adb0d7ce587e" category="paragraph">Cloud Volumes ONTAPでは、一部のVMタイプで_Flash Cache_としてローカルのNVMeストレージが使用されます。この制限事項に注意してください。</block>
   <block id="7616922b4f9b85f327fb9c04518fc90f" category="list-text">リブート後のキャッシュの再ウォームアップはサポートされていません。</block>
   <block id="d91c9372e1fdf74d651217f1a36e518b" category="inline-link">サポートされている Azure リージョンのリストを表示します</block>
@@ -714,8 +713,6 @@
   <block id="fbd5af992908b9931b0ae311f285c7d5" category="summary">Cloud Volumes ONTAP 9.15.1には、新しい機能拡張が含まれています。</block>
   <block id="83a60efee029f00eebfd929bdfd93b02" category="doc">Cloud Volumes ONTAP 9.15.1の新機能</block>
   <block id="b4c1aa9082f0d8e4483e610ea5ab6d33" category="paragraph">Cloud Volumes ONTAP 9.15.1には、新しい機能拡張が含まれています。</block>
-  <block id="9889b7a9df56580016f59ccd942fb1d1" category="inline-link">BlueXPリリースノート</block>
-  <block id="4bdb15bfe1bad472d818dc31e8f53185" category="paragraph">その他の機能と拡張機能も、最新バージョンのBlueXPで導入されました。<block ref="c7887e85c6060ae2594d873a0f2ae025" category="inline-link-rx"></block>詳細については、を参照してください。</block>
   <block id="ae1d06c72e1d3684dc2b0784b447f8bb" category="section-title">9.15.1 P6（2025年1月20日）</block>
   <block id="e685687a0700868820f260439fea454f" category="paragraph">すべてのクラウドプロバイダのCloud Volumes ONTAPで、9.15.1 P6パッチが利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。</block>
   <block id="4d90d21642c7222312363da000d7409f" category="inline-link-macro">P6パッチで修正されたバグの一覧を表示する</block>
@@ -847,6 +844,15 @@
   <block id="be999fe0b627760ef402ad7df5008fe1" category="paragraph"><block ref="b0bc3ebbc9e610d1dac4e57f16939acc" category="inline-link-macro-rx"></block> (NetAppサポート サイトへのログインが必要です)。</block>
   <block id="a4b4460d6fb6c25a6520fe60eba7e3da" category="section-title">9.15.1 P11（2025年7月4日）</block>
   <block id="c50aad5510d202b1b6b9d3aaa902a6db" category="section-title">9.15.1 P1（2024年9月3日）</block>
-  <block id="7154c540487dc9b8aa5fe16a2bb93c7e" category="paragraph">9.15.1 P14 パッチが、すべてのクラウド プロバイダーのCloud Volumes ONTAPで利用できるようになりました。NetApp Consoleは、既存のシステムをこのパッチ リリースにアップグレードするように要求します。</block>
-  <block id="7968735d85ca87c9b89e7bcbaa2b7c54" category="paragraph">9.15.1 P13 パッチが、すべてのクラウド プロバイダーのCloud Volumes ONTAPで利用できるようになりました。NetApp Consoleは、既存のシステムをこのパッチ リリースにアップグレードするように要求します。</block>
+  <block id="fe70a2c1423d8dc6d93d9ed56139eace" category="inline-link">Azure VM Management Extensions を Cloud Volume ONTAPにインストールできますか?</block>
+  <block id="57ffa4e4634e4030ce4314e8507b6ac1" category="paragraph">Cloud Volumes ONTAP は、 NetApp Consoleの管理操作に影響するため、Azure 仮想マシン (VM) 拡張機能をサポートしていません。デプロイ中、コンソールは VM への拡張機能のインストールを防止します。既存のCloud Volumes ONTAP VM に拡張機能がすでにインストールされている場合は、Microsoft Azure サポートに連絡して削除してください。ガイダンスについては、ナレッジベース（KB）の記事を参照してください。<block ref="91819095f9753eb451eb4e908a53f8c0" category="inline-link-rx"></block></block>
+  <block id="cdea228f1fb9b0b9d76a0a25fd7fbfba" category="paragraph">2025 年 7 月 14 日以降、 Cloud Volumes ONTAP VM で VM 拡張機能が検出されると、 NetApp電子メールが送信され、コンソールで通知されます。</block>
+  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="inline-link">Cloud Volumes ONTAP</block>
+  <block id="5d1eb95c23458b15c13fe46f408728aa" category="paragraph">NetApp Consoleの最新バージョンでは、追加の機能と拡張機能も導入されています。詳細については、<block ref="56e5ce972271b4b4616ecc1db39a9778" category="inline-link-rx"></block> コンソールで管理されます。</block>
+  <block id="429495ba2c4dc5c484de64b1db5fd89f" category="section-title">9.15.1 P15（2025年10月24日）</block>
+  <block id="699fe82e22438f1032454ac32aa4e8d2" category="paragraph">9.15.1 P15 パッチが、すべてのクラウド プロバイダーのCloud Volumes ONTAPで利用できるようになりました。コンソールは、既存のシステムをこのパッチ リリースにアップグレードするように要求します。</block>
+  <block id="33574a05549f99fccdd87d54c230615f" category="inline-link-macro">P15パッチで修正されたバグのリストを見る</block>
+  <block id="1b91cb1db5fb75c00134cda2e4b2b2cd" category="paragraph"><block ref="3440e8b5c6746799d183afaf401c4952" category="inline-link-macro-rx"></block>(NetAppサポート サイトへのログインが必要です)。</block>
+  <block id="785bea81f47185bf9b618826ccf1d1b6" category="paragraph">9.15.1 P14 パッチが、すべてのクラウド プロバイダーのCloud Volumes ONTAPで利用できるようになりました。コンソールは、既存のシステムをこのパッチ リリースにアップグレードするように要求します。</block>
+  <block id="d86b9f59eb8cb7a8534fb5372625567a" category="paragraph">9.15.1 P13 パッチが、すべてのクラウド プロバイダーのCloud Volumes ONTAPで利用できるようになりました。コンソールは、既存のシステムをこのパッチ リリースにアップグレードするように要求します。</block>
 </blocks>
